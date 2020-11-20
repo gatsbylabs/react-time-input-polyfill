@@ -24,9 +24,11 @@
 	},
 	"homepage": "https://dan503.github.io/react-time-input-polyfill/",
 	"dependencies": {
-		"react": "^16.10.2",
 		"time-input-polyfill": "^1.0.9"
 	},
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  },
 	"devDependencies": {
 		"@babel/core": "7.6.0",
 		"@babel/preset-env": "^7.6.3",
